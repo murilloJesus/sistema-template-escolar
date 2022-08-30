@@ -4,8 +4,8 @@
 		<title>Templeta para Escolas 2</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="/resources/css/assets-land/css/main.css" />
-		<noscript><link rel="stylesheet" href="/resources/css/assets-land/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="/public/assets-labd/css/main.css" />
+		<noscript><link rel="stylesheet" href="/public/assets-labd//css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 
@@ -66,62 +66,62 @@
 
 					<section id="container">
 						<div class="card">
-							<img src="/resources/css/images-land//thumbs/01.jpg" alt="">
+							<img src="/public/assets-land/images/thumbs/01.jpg" alt="">
 							<h4><b>Nome do evento Evento</b></h4>
 							<p>Breve Descrição</p>
 						</div>
 						<div class="card">
-							<img src="/resources/css/images-land//thumbs/01.jpg" alt="">
+							<img src="/public/assets-land/images/thumbs/01.jpg" alt="">
 							<h4><b>Nome do evento Evento</b></h4>
 							<p>Breve Descrição</p>
 						</div>
 						<div class="card">
-							<img src="/resources/css/images-land//thumbs/01.jpg" alt="">
+							<img src="/public/assets-land/images/thumbs/01.jpg" alt="">
 							<h4><b>Nome do evento Evento</b></h4>
 							<p>Breve Descrição</p>
 						</div>
 						<div class="card">
-							<img src="/resources/css/images-land//thumbs/01.jpg" alt="">
+							<img src="/public/assets-land/images/thumbs/01.jpg" alt="">
 							<h4><b>Nome do evento Evento</b></h4>
 							<p>Breve Descrição</p>
 						</div>
 						<div class="card">
-							<img src="/resources/css/images-land//thumbs/01.jpg" alt="">
+							<img src="/public/assets-land/images/thumbs/01.jpg" alt="">
 							<h4><b>Nome do evento Evento</b></h4>
 							<p>Breve Descrição</p>
 						</div>
 						<div class="card">
-							<img src="/resources/css/images-land//thumbs/01.jpg" alt="">
+							<img src="/public/assets-land/images/thumbs/01.jpg" alt="">
 							<h4><b>Nome do evento Evento</b></h4>
 							<p>Breve Descrição</p>
 						</div>
 						<div class="card">
-							<img src="/resources/css/images-land//thumbs/01.jpg" alt="">
+							<img src="/public/assets-land/images/thumbs/01.jpg" alt="">
 							<h4><b>Nome do evento Evento</b></h4>
 							<p>Breve Descrição</p>
 						</div>
 						<div class="card">
-							<img src="/resources/css/images-land//thumbs/01.jpg" alt="">
+							<img src="/public/assets-land/images/thumbs/01.jpg" alt="">
 							<h4><b>Nome do evento Evento</b></h4>
 							<p>Breve Descrição</p>
 						</div>
 						<div class="card">
-							<img src="/resources/css/images-land//thumbs/01.jpg" alt="">
+							<img src="/public/assets-land/images/thumbs/01.jpg" alt="">
 							<h4><b>Nome do evento Evento</b></h4>
 							<p>Breve Descrição</p>
 						</div>
 						<div class="card">
-							<img src="/resources/css/images-land//thumbs/01.jpg" alt="">
+							<img src="/public/assets-land/images/thumbs/01.jpg" alt="">
 							<h4><b>Nome do evento Evento</b></h4>
 							<p>Breve Descrição</p>
 						</div>
 						<div class="card">
-							<img src="/resources/css/images-land//thumbs/01.jpg" alt="">
+							<img src="/public/assets-land/images/thumbs/01.jpg" alt="">
 							<h4><b>Nome do evento Evento</b></h4>
 							<p>Breve Descrição</p>
 						</div>
 						<div class="card">
-							<img src="/resources/css/images-land//thumbs/01.jpg" alt="">
+							<img src="/public/assets-land/images/thumbs/01.jpg" alt="">
 							<h4><b>Nome do evento Evento</b></h4>
 							<p>Breve Descrição</p>
 						</div>
@@ -148,14 +148,14 @@
 			</footer>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<script src="/public/assets-land/js/jquery.min.js"></script>
+			<script src="/public/assets-land/js/jquery.poptrox.min.js"></script>
+			<script src="/public/assets-land/js/jquery.scrolly.min.js"></script>
+			<script src="/public/assets-land/js/jquery.scrollex.min.js"></script>
+			<script src="/public/assets-land/js/browser.min.js"></script>
+			<script src="/public/assets-land/js/breakpoints.min.js"></script>
+			<script src="/public/assets-land/js/util.js"></script>
+			<script src="/public/assets-land/js/main.js"></script>
 
 	</body>
 </html>
