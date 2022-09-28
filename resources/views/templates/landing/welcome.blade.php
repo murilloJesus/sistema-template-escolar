@@ -9,14 +9,15 @@
 	</head>
 	<body class="is-preload">
 
+        {{ session()->all() }}
+
 		<!-- Header -->
 			<header id="header">
 				<nav>
 					<ul>
-						<li><a href="#">Home</a></li>
-						<li><a href="#one">Sobre nós</a></li>
-						<li><a href="#two">Metodo de Ensino</a></li>
-						<li><a href="#work">Galeria</a></li>
+                        @foreach ($configs->structure as $menu)
+                            <li><a href="#">{{$menu->name }}</a></li>
+                        @endforeach
 					</ul>
 				</nav>
 			</header>
@@ -25,9 +26,9 @@
 			<section id="intro" class="main style1 dark fullscreen">
 				<div class="content">
 					<header>
-						<h2>Nome Da Escola.</h2>
+						<h2>{{ ___('institutional.name', $configs) }}</h2>
 					</header>
-					<p>Bordão da Escola.</p>
+					<p>{{ ___('institutional.description', $configs) }}</p>
 					<footer>
 						<a href="#one" class="button style2 down">More</a>
 					</footer>
