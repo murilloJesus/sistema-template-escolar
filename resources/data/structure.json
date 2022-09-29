@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Home",
+        "alias": "intro",
+        "type": "intro"
+    },
+    {
+        "name": "Sobre Nós",
+        "alias": "sobre",
+        "type": "content"
+    },
+    {
+        "name": "Método de Ensino",
+        "alias": "metodo",
+        "type": "content"
+    },
+    {
+        "name": "Galeria",
+        "alias": "galeria",
+        "type": "galery"
+    }
+]
