@@ -54,6 +54,18 @@ return [
             'url' => env('APP_URL').'/resources/data',
         ],
 
+        'assets' => [
+            'driver' => 'local',
+            'root' => public_path('assets'),
+            'url' => env('APP_URL').'/public/assets',
+        ],
+
+        'resources' => [
+            'driver' => 'local',
+            'root' => resource_path(''),
+            'url' => env('APP_URL').'/resources',
+        ],
+
         's3' => [
             'driver' => 's3',
             'key' => env('AWS_ACCESS_KEY_ID'),
