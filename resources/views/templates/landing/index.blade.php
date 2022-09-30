@@ -6,9 +6,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="/public/storage/css/css.css">
-    <link rel="stylesheet" href="/public/assets-land/css/main.css" />
+    <link rel="stylesheet" href="/public/assets/landing/css/main.css" />
     <noscript>
-        <link rel="stylesheet" href="/public/assets-land//css/noscript.css" /></noscript>
+        <link rel="stylesheet" href="/public/assets/landing//css/noscript.css" /></noscript>
 </head>
 
 <body class="is-preload">
@@ -64,14 +64,14 @@
 
 
     <!-- Scripts -->
-    <script src="/public/assets-land/js/jquery.min.js"></script>
-    <script src="/public/assets-land/js/jquery.poptrox.min.js"></script>
-    <script src="/public/assets-land/js/jquery.scrolly.min.js"></script>
-    <script src="/public/assets-land/js/jquery.scrollex.min.js"></script>
-    <script src="/public/assets-land/js/browser.min.js"></script>
-    <script src="/public/assets-land/js/breakpoints.min.js"></script>
-    <script src="/public/assets-land/js/util.js"></script>
-    <script src="/public/assets-land/js/main.js"></script>
+    <script src="/public/assets/landing/js/jquery.min.js"></script>
+    <script src="/public/assets/landing/js/jquery.poptrox.min.js"></script>
+    <script src="/public/assets/landing/js/jquery.scrolly.min.js"></script>
+    <script src="/public/assets/landing/js/jquery.scrollex.min.js"></script>
+    <script src="/public/assets/landing/js/browser.min.js"></script>
+    <script src="/public/assets/landing/js/breakpoints.min.js"></script>
+    <script src="/public/assets/landing/js/util.js"></script>
+    <script src="/public/assets/landing/js/main.js"></script>
 
 </body>
 

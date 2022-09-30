@@ -4,10 +4,10 @@
 		<title>Template para Escolas</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="/public/assets-site/css/main.css" />
-		<link rel="stylesheet" href="/public/assets-site/css/.css" />
-		<link rel="stylesheet" href="/public/assets-site/css/main.css" />
-		<noscript><link rel="stylesheet" href="/public/assets-site/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="/public/assets/site/css/main.css" />
+		<link rel="stylesheet" href="/public/assets/site/css/.css" />
+		<link rel="stylesheet" href="/public/assets/site/css/main.css" />
+		<noscript><link rel="stylesheet" href="/public/assets/site/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload landing">
 		<div id="page-wrapper">
@@ -16,12 +16,12 @@
 				<header id="header">
 					<nav id="nav">
 						<ul>
-							<li><a href="/public/assets-site/views/colegio/escola.html">O Colegio</a></li>
+							<li><a href="/public/assets/site/views/colegio/escola.html">O Colegio</a></li>
 							<li>
 								<a href="#two">Metodologia</a>
 							</li>
 							<li><a href="#three">Atividades Extras</a></li>
-							<li><a href="/public/assets-site/views/galeria/galeria.html" >Galeria</a></li>
+							<li><a href="/public/assets/site/views/galeria/galeria.html" >Galeria</a></li>
 						</ul>
 					</nav>
 				</header>
@@ -92,14 +92,14 @@
 		</div>
 
 		<!-- Scripts -->
-			<script src="/public/assets-site/js/jquery.min.js"></script>
-			<script src="/public/assets-site/js/jquery.scrolly.min.js"></script>
-			<script src="/public/assets-site/js/jquery.dropotron.min.js"></script>
-			<script src="/public/assets-site/js/jquery.scrollex.min.js"></script>
-			<script src="/public/assets-site/js/browser.min.js"></script>
-			<script src="/public/assets-site/js/breakpoints.min.js"></script>
-			<script src="/public/assets-site/js/util.js"></script>
-			<script src="/public/assets-site/js/main.js"></script>
+			<script src="/public/assets/site/js/jquery.min.js"></script>
+			<script src="/public/assets/site/js/jquery.scrolly.min.js"></script>
+			<script src="/public/assets/site/js/jquery.dropotron.min.js"></script>
+			<script src="/public/assets/site/js/jquery.scrollex.min.js"></script>
+			<script src="/public/assets/site/js/browser.min.js"></script>
+			<script src="/public/assets/site/js/breakpoints.min.js"></script>
+			<script src="/public/assets/site/js/util.js"></script>
+			<script src="/public/assets/site/js/main.js"></script>
 
 	</body>
 </html>
