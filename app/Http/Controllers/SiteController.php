@@ -11,6 +11,6 @@ class SiteController extends Controller
 
         DinamicCss::generate();
 
-        return view('welcome');
+        return view('index');
     }
 }
