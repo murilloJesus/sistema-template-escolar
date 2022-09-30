@@ -16,7 +16,7 @@ class DataRetriever {
         $returnData = (object)[];
 
         foreach ($names ? $names : self::allDatas as $value) {
-            $returnData->{$value} = json_decode(Storage::get(self::getPath($value)));
+            $returnData->{$value} = json_decode(Storage::disk('data')->get(self::getPath($value)));
         }
 
         return $returnData;
@@ -25,7 +25,7 @@ class DataRetriever {
 
 
     public static function getPath($name){
-        return "data/$name.json";
+        return "$name.json";
     }
 }
 

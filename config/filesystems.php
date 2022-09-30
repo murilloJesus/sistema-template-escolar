@@ -42,6 +42,18 @@ return [
             'visibility' => 'public',
         ],
 
+        'classes' => [
+            'driver' => 'local',
+            'root' => app_path('Classes'),
+            'url' => env('APP_URL').'/app/Classes',
+        ],
+
+        'data' => [
+            'driver' => 'local',
+            'root' => resource_path('data'),
+            'url' => env('APP_URL').'/resources/data',
+        ],
+
         's3' => [
             'driver' => 's3',
             'key' => env('AWS_ACCESS_KEY_ID'),

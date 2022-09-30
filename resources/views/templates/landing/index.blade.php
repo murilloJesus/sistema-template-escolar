@@ -5,6 +5,7 @@
     <title>Templeta para Escolas 2</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="/public/storage/css/css.css">
     <link rel="stylesheet" href="/public/assets-land/css/main.css" />
     <noscript>
         <link rel="stylesheet" href="/public/assets-land//css/noscript.css" /></noscript>
@@ -59,6 +60,8 @@
 
     <!-- Footer -->
     <x-base.footer :configs="$configs" />
+
+
 
     <!-- Scripts -->
     <script src="/public/assets-land/js/jquery.min.js"></script>
