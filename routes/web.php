@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [SiteController::class, 'index']);
+Route::get('/{resource?}/{folder?}/{group?}', [SiteController::class, 'index']);
 
 Auth::routes();
 

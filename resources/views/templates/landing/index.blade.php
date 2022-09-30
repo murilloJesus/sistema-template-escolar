@@ -18,7 +18,7 @@
         <nav>
             <ul>
                 @foreach ($configs->structure as $menu)
-                <li><a href="#{{ $menu->alias }}"   >{{$menu->name }}</a></li>
+                <li><a href="#{{ $menu->alias }}"   >{{ $menu->name }}</a></li>
                 @endforeach
             </ul>
         </nav>
