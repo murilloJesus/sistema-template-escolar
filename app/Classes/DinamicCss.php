@@ -20,7 +20,7 @@ class DinamicCss
     }
 
     static public function generate(){
-        $configs = DataRetriever::getData(['structure']);
+        $configs = DataRetriever::getData(['structure', 'institutional']);
 
         Storage::disk('public')->put('css/css.css', require (resource_path('views/templates/'.env('TEMPLATE').'/gen/css.php')));
     }
