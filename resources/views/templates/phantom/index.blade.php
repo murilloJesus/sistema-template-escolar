@@ -71,7 +71,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="style5">
+								<!-- <article class="style5">
 									<span class="image">
 										<img src="/public/assets/phantom/images/pic05.jpg" alt="" />
 									</span>
@@ -92,7 +92,7 @@
 											<p>encaminhe seu curriculo por aqui</p>
 										</div>
 									</a>
-								</article>
+								</article> -->
 						</div>
 					</div>
 

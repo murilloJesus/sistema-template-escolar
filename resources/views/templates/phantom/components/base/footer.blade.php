@@ -1,20 +1,35 @@
-	<!-- Footer -->
-    <footer class="site-footer">
-					<div class="container">
-					  <div class="row">
-						<div class="col-md-8 col-sm-6 col-xs-12">
-						  <p class="copyright-text">© Nome da Escola | Site por Star Escola 
-						  </p>
+<!-- Footer -->
+<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>Entre em Contato</h2>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<input type="text" name="name" id="name" placeholder="Nome" />
+										</div>
+										<div class="field half">
+											<input type="email" name="email" id="email" placeholder="Email" />
+										</div>
+										<div class="field">
+											<textarea name="message" id="message" placeholder="Encaminhe sua Mensagem"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Enviar" class="primary" /></li>
+									</ul>
+								</form>
+							</section>
+							<section>
+								<h2>Redes Sociais</h2>
+								<ul class="icons">
+									<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-whatsapp"><span class="label">Instagram</span></a></li>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Todos os Direitos reservados (NOME DA ESCOLA)</li><li>|  Design: StarEscola <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
 						</div>
-			  
-						<div class="col-md-4 col-sm-6 col-xs-12">
-						  <ul class="social-icons">
-							<li><a class="facebook" href="#"> <img class="icon-footer" src="/public/assets/phantom/images/icon-wats.png" alt="">  </a></li>
-							<li><a class="facebook" href="#"> <img class="icon-footer" src="/public/assets/phantom/images/icon-insta.png" alt="">  </a></li>
-							<li><a class="facebook" href="#"> <img class="icon-footer" src="/public/assets/phantom/images/icon-face.png" alt="">  </a></li>
-							
-						</ul>
-						</div>
-					  </div>
-					</div>
-			  </footer>
+					</footer>
