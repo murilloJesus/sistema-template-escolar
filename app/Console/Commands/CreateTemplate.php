@@ -2,10 +2,10 @@
 
 namespace App\Console\Commands;
 
+use Exception;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Storage;
-
 class CreateTemplate extends Command
 {
     /**
@@ -48,9 +48,9 @@ class CreateTemplate extends Command
 
         if( !in_array($template, $storage->directories()) ){
             $storage->makeDirectory($template);
-            Log::info("public/assets/$template criado com sucesso.");
+            echo ("public/assets/$template criado com sucesso. \n");
         }else{
-            Log::info("public/assets/$template já existe.");
+            echo ("public/assets/$template já existe. \n");
         }
 
         $storage = Storage::disk('resources');
@@ -60,11 +60,16 @@ class CreateTemplate extends Command
             $dir = $storage->allFiles("template");
 
             foreach ($dir as $file) {
-                $storage->copy($file, str_replace("template/", "views/templates/$template/", $file));
-                Log::info("views/templates/$template/ criado com sucesso");
+                $new_file = str_replace("template/", "views/templates/$template/", $file);
+                try{
+                    $storage->copy($file, $new_file);
+                    echo ("$new_file criado com sucesso. \n");
+                } catch(Exception $e){
+                    echo ("$new_file já existe. \n");
+                }
             }
         }else{
-            Log::info("views/templates/$template já existe.");
+            echo ("views/templates/$template já existe. \n");
         }
 
 
