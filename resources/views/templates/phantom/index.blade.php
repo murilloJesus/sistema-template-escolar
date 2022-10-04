@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
         {!! SEO::generate() !!}
-
+		<link rel="stylesheet" href="/public/storage/css/css.css" />
         <link rel="stylesheet" href="/public/assets/phantom/css/main.css" />
 		<link rel="stylesheet" href="/public/assets/phantom/css/lgpd.css" />
 		<noscript><link rel="stylesheet" href="/public/assets/phantom/css/noscript.css" /></noscript>
