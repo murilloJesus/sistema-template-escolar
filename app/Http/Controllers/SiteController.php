@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Classes\DinamicCss;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\View;
 
 class SiteController extends Controller
