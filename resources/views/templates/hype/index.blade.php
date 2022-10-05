@@ -1,13 +1,14 @@
+@extends('layouts.default')
 
-<!DOCTYPE HTML>
-<html>
-	<head>
+@section('head')
 		<title>hype</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="/public/assets/hype/css/main.css" />
 		<noscript><link rel="stylesheet" href="/public/assets/hype/css/noscript.css" /></noscript>
-	</head>
+@endsection
+
+@section('content')
 	<body class="is-preload">
 
 		<<x-base.header :configs="$configs" />
@@ -64,7 +65,7 @@
 						</section>
 					</section>
 
-			
+
 
                     <x-base.footer :configs="$configs" />
 
@@ -78,4 +79,5 @@
 			<script src="/public/assets/hype/js/main.js"></script>
 
 	</body>
-</html>
+
+@endsection
