@@ -4,6 +4,7 @@
 		<title>Template para Escolas</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/public/storage/css/css.css" />
 		<link rel="stylesheet" href="/public/assets/site/css/main.css" />
 		<link rel="stylesheet" href="/public/assets/site/css/.css" />
 		<link rel="stylesheet" href="/public/assets/site/css/main.css" />
@@ -40,7 +41,7 @@
 
 			<!-- Two -->
 				<section id="two" class="spotlight style2 right">
-					<span class="image fit main"><img src="/public/assts-site/images/pic03.jpg" alt="" /></span>
+					<span class="image fit main"><img src="/public/assets/site/images/pic03.jpg" alt="" /></span>
 					<div class="content">
 						<header>
 							<h2>Metodologia de Estudos (Nome da Escola)</h2>
@@ -55,7 +56,7 @@
 
 			<!-- Three -->
 				<section id="three" class="spotlight style3 left">
-					<span class="image fit main bottom"><img src="/public/assts-site/images/pic04.jpg" alt="" /></span>
+					<span class="image fit main bottom"><img src="/public/assets/site/images/pic04.jpg" alt="" /></span>
 					<div class="content">
 						<header>
 							<h2>Atividades extrás</h2>
@@ -83,9 +84,9 @@
 				<footer id="footer">
 					<ul class="copyright">
 						<li>&copy;Nome da instituição, Direitos reservados.</li><li>Design: Leonardo O. alves</li>
-						<li> <a href=""><img class="icons" src="/public/assts-site/images/icon-face.png" alt="">  </a>  </li>
-							<li> <a href=""><img class="icons" src="/public/assts-site/images/icon-wats.png" alt="">  </a>  </li>
-							<li> <a href=""><img class="icons" src="/public/assts-site/images/icon-insta.png" alt="">  </a>  </li>
+						<li> <a href=""><img class="icons" src="/public/assets/site/images/icon-face.png" alt="">  </a>  </li>
+							<li> <a href=""><img class="icons" src="/public/assets/site/images/icon-wats.png" alt="">  </a>  </li>
+							<li> <a href=""><img class="icons" src="/public/assets/site/images/icon-insta.png" alt="">  </a>  </li>
 					</ul>
 				</footer>
 

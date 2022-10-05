@@ -2,9 +2,9 @@
     "name": "StarEscola",
     "description": "O Sistema de gerenciamento escolar",
     "colors": {
-        "primary": "#182538",
-        "secundary": "#fff",
-        "tertiary": "#ff7b1a",
+        "primary": "#181922",
+        "secundary": "#f48120",
+        "tertiary": "#142444",
         "quaternary": "#ddd",
         "card_a": "#6A5ACD",
         "card_b": "#7ecaf6",
