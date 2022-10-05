@@ -13,11 +13,9 @@
     background-attachment: fixed, fixed;
     background-position: top left, bottom center;
     background-repeat: repeat, no-repeat;
-    --primary: $colors->primary;
-    --secundary: $colors->secundary;
-    --tertiary: $colors->tertiary;
-    --quaternary: $colors->quaternary;
 }
+
+
 
 EOT;
     endforeach;
