@@ -41,7 +41,15 @@ class CreateClass extends Command
     {
         $configs = $this->setConfigs();
 
-        Storage::disk('classes')->put($this->argument('name').'.php', base_class_file($configs));
+        $disk = Storage::disk('classes');
+
+        if(!in_array($this->argument('name').".php", $disk->allFiles())){
+            $disk->put($this->argument('name').'.php', base_class_file($configs));
+            echo "Classe ".$this->argument('name')." criada com sucesso. \n";
+        } else {
+            echo "Classe ".$this->argument('name')." já existe. \n";
+        }
+
 
         return $this->argument('name');
     }
