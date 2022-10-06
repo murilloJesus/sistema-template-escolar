@@ -1,22 +1,38 @@
 [
     {
-        "name": "Home",
+        "title": "Home",
+        "subtitle": "",
         "alias": "intro",
         "type": "intro"
     },
     {
-        "name": "Sobre Nós",
+        "title": "Sobre Nós",
+        "subtitle": "Um pouco de nossa História.",
         "alias": "sobre",
         "type": "content"
     },
     {
-        "name": "Método de Alteração",
+        "title": "Métodologia de Estudo",
+        "subtitle": "Confira nossas metodologias de trabalho",
         "alias": "metodo",
         "type": "content"
     },
     {
-        "name": "Galeria",
+        "title": "Galeria",
+        "subtitle": "Cliques de nossos eventos",
         "alias": "galeria",
         "type": "galery"
+    },
+    {
+        "title": "Calendário",
+        "subtitle": "Atividades escolares dia-a-dia",
+        "alias": "metodo",
+        "type": "content"
+    },
+    {
+        "title": "Projetos",
+        "subtitle": "Acompanhe o que esta rolando",
+        "alias": "projetos",
+        "type": "projects"
     }
 ]

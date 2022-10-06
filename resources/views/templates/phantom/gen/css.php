@@ -1,18 +1,22 @@
 <?php
 
+use App\Classes\ColorCalculator;
+
     $colors = $configs->institutional->colors;
 
-    return <<<EOT
+    $return[":root"]["--primary:"] = $colors->primary;
+    $return[":root"]["--secundary:"] = $colors->secundary;
+    $return[":root"]["--tertiary:"] = $colors->tertiary;
+    $return[":root"]["--quaternary:"] = $colors->quaternary;
 
-    :root {
-        --primary: $colors->primary;
-        --secundary: $colors->secundary;
-        --tertiary: $colors->tertiary;
-        --quaternary: $colors->quaternary;
-        --card_a: $colors->card_a;
-        --card_b: $colors->card_b;
-        --card_c: $colors->card_c;
-        --card_d: $colors->card_d;
+    $primary = new ColorCalculator($colors->primary);
+    $complementary = $primary->fromDefaultRuler('primary');
+
+    $secundary = new ColorCalculator($colors->secundary);
+    $complementary = array_merge($complementary, $secundary->fromDefaultRuler('secundary'));
+
+    foreach ($complementary as $nome => $valor) {
+        $return[":root"]["--$nome"] = $valor;
     }
 
-EOT;
+return $return;

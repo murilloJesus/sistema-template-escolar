@@ -20,7 +20,7 @@
 			<div id="wrapper">
 
 
-			<x-base.header :configs="$configs" />
+			<x-base.header />
 
 				<!-- Main -->
 					<div id="main">
@@ -30,72 +30,21 @@
 								<p class="header-txt">Bordão Da Escola</p>
 							</header>
 							<section class="tiles">
-								<article class="style1">
-									<span class="image">
-										<img src="/public/assets/phantom/images/pic01.jpg" alt="" />
-									</span>
-									<a href="/metodologia">
-										<h2>Metodologia de Estudos</h2>
-										<div class="content">
-											<p>Confira Nossa Metodologia para Estudos</p>
-										</div>
-									</a>
-								</article>
-								<article class="style2">
-									<span class="image">
-										<img src="/public/assets/phantom/images/pic02.jpg" alt="" />
-									</span>
-									<a href="/galeria">
-										<h2>Galeria</h2>
-										<div class="content">
-											<p>Veja nossos principais eventos</p>
-										</div>
-									</a>
-								</article>
-								<article class="style3">
-									<span class="image">
-										<img src="/public/assets/phantom/images/pic03.jpg" alt="" />
-									</span>
-									<a href="/calendario">
-										<h2>Calendario Escolar</h2>
-										<div class="content">
-											<p>Confira a data de nossos eventos</p>
-										</div>
-									</a>
-								</article>
-								<article class="style4">
-									<span class="image">
-										<img src="/public/assets/phantom/images/pic04.jpg" alt="" />
-									</span>
-									<a href="/projetos">
-										<h2>Projetos</h2>
-										<div class="content">
-											<p>Veja nossos principais projetos</p>
-										</div>
-									</a>
-								</article>
-								<!-- <article class="style5">
-									<span class="image">
-										<img src="/public/assets/phantom/images/pic05.jpg" alt="" />
-									</span>
-									<a href="/contato">
-										<h2>Entre em Contato</h2>
-										<div class="content">
-											<p>Caso tenha alguma duvida entre em contato</p>
-										</div>
-									</a>
-								</article>
-								<article class="style6">
-									<span class="image">
-										<img src="/public/assets/phantom/images/pic06.jpg" alt="" />
-									</span>
-									<a href="/trabalhe">
-										<h2>Trabalhe Conosco</h2>
-										<div class="content">
-											<p>encaminhe seu curriculo por aqui</p>
-										</div>
-									</a>
-								</article> -->
+                            @foreach ($configs->structure as $page)
+                            @continue( $page->title == 'Home')
+                                <article class="article-{{ $page->alias }}">
+                                    <span class="image">
+                                        <img src="/public/assets/phantom/images/pic01.jpg" alt="" />
+                                    </span>
+                                    <a href="/metodologia">
+                                        <h2>{{ $page->title }}</h2>
+                                        <div class="content">
+                                            <p>{{ $page->subtitle }}</p>
+                                        </div>
+                                    </a>
+                                </article>
+                            @endforeach
+                            </section>
 						</div>
 					</div>
 

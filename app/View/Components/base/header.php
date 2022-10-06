@@ -6,14 +6,17 @@ use Illuminate\View\Component;
 
 class header extends Component
 {
+
+    public $configs;
+
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($configs)
     {
-        //
+        $this->configs = $configs;
     }
 
     /**

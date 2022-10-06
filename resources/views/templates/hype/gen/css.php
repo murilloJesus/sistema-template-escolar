@@ -15,7 +15,6 @@ use App\Classes\ColorCalculator;
     $return[":root"]['--tertiary'] = $colors->tertiary;
     $return[":root"]['--quaternary'] = $colors->quaternary;
 
-
     foreach ($complementary as $nome => $valor) {
         $return[":root"]["--$nome"] = $valor;
     }
