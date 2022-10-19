@@ -23,6 +23,14 @@ class DataRetriever {
 
     }
 
+    static public function getContent($page_name){
+
+        foreach ((self::getData(['structure']))->structure as $page) {
+            if($page->alias == $page_name) return $page;
+        }
+
+    }
+
 
     public static function getPath($name){
         return "$name.json";

@@ -1,22 +1,19 @@
 <?php
 
-namespace App\View\Components\base;
+namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class footer extends Component
+class contact extends Component
 {
-
-    public $configs;
-
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct($configs)
+    public function __construct()
     {
-        $this->configs = $configs;
+        //
     }
 
     /**
@@ -26,6 +23,6 @@ class footer extends Component
      */
     public function render()
     {
-        return view('components.base.footer');
+        return view('components.contact');
     }
 }

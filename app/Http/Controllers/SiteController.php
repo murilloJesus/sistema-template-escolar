@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Classes\DataRetriever;
 use App\Classes\DinamicCss;
 use Illuminate\Support\Facades\View;
 
@@ -25,11 +26,11 @@ class SiteController extends Controller
 
         }else if($resource){
 
-            if(View::exists("$resource")){
-                return view("$resource");
-            }else{
-                return view("$resource.index");
-            }
+            $data = [
+                "content" => DataRetriever::getContent($resource)
+            ];
+
+            return view("content", $data);
 
         } else{
 

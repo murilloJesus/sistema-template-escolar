@@ -1,9 +1,6 @@
 @extends('layouts.default')
 
 @section('head')
-		<title>hype</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="/public/storage/css/css.css" />
 		<link rel="stylesheet" href="/public/assets/hype/css/main.css" />
 		<noscript><link rel="stylesheet" href="/public/assets/hype/css/noscript.css" /></noscript>
@@ -12,7 +9,7 @@
 @section('content')
 	<body class="is-preload">
 
-		<<x-base.header :configs="$configs" />
+		<x-base.header :configs="$configs" />
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -20,7 +17,7 @@
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
-							<h1>Nome da Instituição</h1>
+							<h1>{{ ___("institutional.title", $configs) }}</h1>
 								<img class="img-header" src="/public/assets/hype/images/logo.png" alt="">
 						</div>
 					</section>
@@ -68,7 +65,7 @@
 
 
 
-                    <x-base.footer :configs="$configs" />
+                    <x-base.footer />
 
 		<!-- Scripts -->
 			<script src="/public/assets/hype/js/jquery.min.js"></script>

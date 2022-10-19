@@ -1,6 +1,6 @@
 {
-    "name": "StarEscola",
-    "description": "O Sistema de gerenciamento escolar",
+    "title": "StarEscola",
+    "subtitle": "O Sistema de gerenciamento escolar",
     "colors": {
         "primary": "#0024ba",
         "secundary": "#9abf5f",

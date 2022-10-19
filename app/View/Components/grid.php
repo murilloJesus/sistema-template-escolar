@@ -4,7 +4,7 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class galery extends Component
+class grid extends Component
 {
     /**
      * Create a new component instance.
@@ -23,6 +23,6 @@ class galery extends Component
      */
     public function render()
     {
-        return view('components.galery');
+        return view('components.grid');
     }
 }

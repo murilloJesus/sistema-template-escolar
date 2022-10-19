@@ -26,8 +26,8 @@
 					<div id="main">
 						<div class="inner">
 							<header>
-								<h1 class="header-txt">Nome Da Escola </h1>
-								<p class="header-txt">Bordão Da Escola</p>
+								<h1 class="header-txt">{{ ___("institutional.title", $configs) }}</h1>
+								<p class="header-txt">{{ ___("institutional.subtitle", $configs) }}</p>
 							</header>
 							<section class="tiles">
                             @foreach ($configs->structure as $page)

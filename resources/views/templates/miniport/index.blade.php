@@ -20,10 +20,10 @@
 						</div>
 						<div class="col-8 col-7-large col-12-medium">
 							<header>
-								<h1 class="txt-header">NOME DA ESCOLA</h1>
+								<h1 class="txt-header">{{ ___("institutional.title", $configs) }}</h1>
 							</header>
-							<p class="txt-header">Bordão da Escola</p>
-		
+							<p class="txt-header">{{ ___("institutional.subtitle", $configs) }}</p>
+
 						</div>
 					</div>
 				</div>
@@ -135,7 +135,7 @@
 								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 								<li><a href="#" class="icon brands fa-whatsapp"><span class="label">Whatsapp</span></a></li>
 								<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-								
+
 								<!--
 								<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
 								<li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>

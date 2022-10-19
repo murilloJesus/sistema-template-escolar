@@ -14,25 +14,32 @@
     {
         "title": "Métodologia de Estudo",
         "subtitle": "Confira nossas metodologias de trabalho",
-        "alias": "metodo",
-        "type": "content"
+        "alias": "metodologia",
+        "type": "content",
+        "html": "<p class=\"txt\">Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique.</p><p class=\"txt\">Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>"
     },
     {
         "title": "Galeria",
         "subtitle": "Cliques de nossos eventos",
         "alias": "galeria",
-        "type": "galery"
+        "type": "gallery"
     },
     {
         "title": "Calendário",
         "subtitle": "Atividades escolares dia-a-dia",
-        "alias": "metodo",
-        "type": "content"
+        "alias": "calendario-escolar",
+        "type": "calendar"
     },
     {
         "title": "Projetos",
         "subtitle": "Acompanhe o que esta rolando",
         "alias": "projetos",
-        "type": "projects"
+        "type": "grid"
+    },
+    {
+        "title": "Contato",
+        "subtitle": "Fale conosco",
+        "alias": "contato",
+        "type": "contact"
     }
 ]

@@ -14,24 +14,13 @@
 		<div id="page-wrapper">
 
 			<!-- Header -->
-				<header id="header">
-					<nav id="nav">
-						<ul>
-							<li><a href="/public/assets/site/views/colegio/escola.html">O Colegio</a></li>
-							<li>
-								<a href="#two">Metodologia</a>
-							</li>
-							<li><a href="#three">Atividades Extras</a></li>
-							<li><a href="/public/assets/site/views/galeria/galeria.html" >Galeria</a></li>
-						</ul>
-					</nav>
-				</header>
+            <x-base.header />
 
 			<!-- Banner -->
 				<section id="banner">
 					<div class="content">
 						<header>
-							<h2>Nome Da Escola</h2>
+							<h2>{{ ___('institutional.title', $configs) }}</h2>
 						</header>
 					</div>
 					<a href="#two" class="goto-next scrolly">Next</a>
