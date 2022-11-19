@@ -7,6 +7,8 @@
 
     {!! SEO::generate() !!}
 
+    <x-fonts></x-fonts>
+
     @yield('head')
 </head>
 

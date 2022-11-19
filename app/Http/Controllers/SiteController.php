@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Classes\DataRetriever;
 use App\Classes\DinamicCss;
+use App\Classes\FontInjector;
 use Illuminate\Support\Facades\View;
 
 class SiteController extends Controller
@@ -11,6 +12,8 @@ class SiteController extends Controller
     public function index($resource = null, $folder = null, $group = null){
 
         DinamicCss::generate();
+
+        FontInjector::generate();
 
         if($group){
 

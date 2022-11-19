@@ -19,4 +19,6 @@ use App\Classes\ColorCalculator;
         $return[":root"]["--$nome"] = $valor;
     }
 
+
+
 return $return;

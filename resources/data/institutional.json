@@ -6,5 +6,13 @@
         "secundary": "#9abf5f",
         "tertiary": "#142444",
         "quaternary": "#ddd"
+    },
+    "fonts":{
+        "title": "Cabin Sketch",
+        "text": "Mulish",
+        "light": "Noto Sans Mono",
+        "icons": {
+
+        }
     }
 }

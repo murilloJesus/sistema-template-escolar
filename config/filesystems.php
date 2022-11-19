@@ -66,6 +66,12 @@ return [
             'url' => env('APP_URL').'/resources',
         ],
 
+        'views' => [
+            'driver' => 'local',
+            'root' => resource_path('views'),
+            'url' => env('APP_URL').'/resources/views',
+        ],
+
         's3' => [
             'driver' => 's3',
             'key' => env('AWS_ACCESS_KEY_ID'),
